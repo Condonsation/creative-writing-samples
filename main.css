@@ -7,13 +7,14 @@ html, div, h1, main, .stories {
 }
 
 .page-header {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0px 0 0px;
 }
 
 img {
     margin-top: 0px;
+    margin-right: 300px;
     background-repeat: no-repeat;
     position: flex-start;
     width: 150px;
@@ -21,7 +22,7 @@ img {
     opacity: .75;
 }
 
-.firstStory, .secondStory, .thirdStory, .forthStory, .fifthStory, .sixthStory, .seventhStory, .eighthStory {
+.story {
     position: relative;
     justify-content: center;
     width: 80%;
